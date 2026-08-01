@@ -1,16 +1,14 @@
 {
   "meta": {
-    "title": "Asia Green Tech — Inovação sustentável",
-    "description": "A Asia Green Technology desenvolve soluções tecnológicas limpas e regenerativas na Ásia — unindo natureza, engenharia e sistemas inteligentes."
+    "title": "Asia Green Tech — Negócios e Marketing digital",
+    "description": "A Asia Green Tech liga empresas a investidores, locais de produção e fornecedores, e oferece marketing digital: redesign de site e visibilidade online."
   },
   "nav": {
-    "home": "Início",
-    "about": "Sobre",
-    "services": "Serviços",
-    "approach": "Abordagem",
+    "business": "Negócios",
+    "marketing": "Marketing digital",
+    "portfolio": "Portfolio",
     "contact": "Contacto",
-    "language": "Idioma",
-    "menu": "Menu"
+    "language": "Idioma"
   },
   "theme": {
     "light": "Claro",
@@ -19,51 +17,59 @@
   },
   "home": {
     "brand": "Asia Green Tech",
-    "title": "Tecnologia limpa para um futuro regenerativo",
-    "subtitle": "Concebemos e entregamos inovação sustentável na Ásia — ligando natureza, engenharia e sistemas inteligentes.",
-    "cta_primary": "Explorar soluções",
-    "cta_secondary": "A nossa missão"
+    "title": "Ligações de negócio e marketing digital",
+    "subtitle": "Ligamos empresas a investidores, locais de produção e fornecedores — e aumentamos a sua visibilidade online.",
+    "cta_primary": "A nossa oferta de negócios",
+    "cta_secondary": "Ver o nosso trabalho"
   },
-  "about": {
-    "title": "Feitos para a década regenerativa da Ásia",
-    "subtitle": "A Asia Green Technology colabora com empresas, cidades e inovadores para transformar ambição climática em sistemas operacionais.",
-    "body": "Desde infraestruturas renováveis a plataformas de recursos inteligentes, combinamos conhecimento local com padrões globais de engenharia — para implementações práticas, mensuráveis e prontas a escalar."
+  "business": {
+    "title": "Ligações de negócio",
+    "subtitle": "Apresentamos empresas (B2B) aos parceiros certos para crescer e operar.",
+    "item1_title": "Investidores",
+    "item1_body": "Ligamos negócios a investidores que procuram oportunidades sólidas.",
+    "item2_title": "Locais de produção",
+    "item2_body": "Ajudamos empresas a encontrar locais de produção adequados às suas necessidades.",
+    "item3_title": "Fornecedores",
+    "item3_body": "Apresentamos às empresas fornecedores fiáveis para as suas operações."
   },
-  "services": {
-    "title": "Soluções que multiplicam o impacto",
-    "subtitle": "Três capacidades focadas — eficazes sozinhas ou como um só stack.",
-    "item1_title": "Sistemas de energia limpa",
-    "item1_body": "Solar, armazenamento e microrredes híbridas projetadas para fiabilidade em ambientes urbanos densos e remotos.",
-    "item2_title": "Plataformas de recursos inteligentes",
-    "item2_body": "Gêmeos digitais e monitorização que reduzem o desperdício de água, energia e operações industriais.",
-    "item3_title": "Consultoria e entrega climática",
-    "item3_body": "Da estratégia à execução: roadmap, orquestração de parceiros e programas mensuráveis."
+  "marketing": {
+    "title": "Marketing digital",
+    "subtitle": "Redesign de site e visibilidade online — incluindo no Google e junto de assistentes de IA.",
+    "item1_title": "Redesign de site",
+    "item1_body": "Reconstruímos o seu site para ficar claro, moderno e pronto para o negócio.",
+    "item2_title": "Ser encontrado no Google (pesquisa clássica)",
+    "item2_body": "Melhoramos as suas páginas para que as pessoas o encontrem mais facilmente quando pesquisam no Google.",
+    "item3_title": "Ser recomendado por assistentes de IA",
+    "item3_body": "Preparamos o seu conteúdo para que ferramentas de IA (como o ChatGPT) compreendam o seu negócio e o possam mencionar nas respostas.",
+    "item4_title": "Ser visível nos resultados de pesquisa com IA",
+    "item4_body": "Também trabalhamos a visibilidade nas novas experiências de pesquisa com IA (por exemplo os resumos de IA do Google), onde os clientes procuram hoje."
   },
-  "approach": {
-    "title": "Como trabalhamos",
-    "subtitle": "Um caminho claro da ambição à infraestrutura em operação.",
-    "step1_title": "Descobrir",
-    "step1_body": "Mapear restrições, ativos e metas de impacto com as suas equipas no terreno.",
-    "step2_title": "Desenhar",
-    "step2_body": "Prototipar a arquitetura certa — técnica, operacional e financeira — antes de comprometer capital.",
-    "step3_title": "Implementar",
-    "step3_body": "Executar com parceiros locais, verificar o desempenho e deixar sistemas que as suas equipas possam gerir."
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "O que a Asia Green Tech já realizou.",
+    "note": "Os detalhes dos projetos serão listados aqui. Envie-nos a lista dos trabalhos anteriores e publicamos nesta página.",
+    "slot1_title": "Apresentações de negócio",
+    "slot1_body": "Ligações entre empresas e investidores, locais de produção ou fornecedores.",
+    "slot2_title": "Projetos de sites",
+    "slot2_body": "Redesigns de sites entregues a empresas clientes.",
+    "slot3_title": "Projetos de visibilidade",
+    "slot3_body": "Trabalho para melhorar a visibilidade no Google e nas respostas de IA."
   },
   "contact": {
-    "title": "Comece a conversa",
-    "subtitle": "Conte-nos o seu projeto. Respondemos em dois dias úteis.",
+    "title": "Contacto",
+    "subtitle": "Diga-nos o que precisa. Responderemos.",
     "name_label": "Nome completo",
     "name_placeholder": "O seu nome",
     "email_label": "E-mail",
     "email_placeholder": "voce@empresa.com",
     "message_label": "Mensagem",
-    "message_placeholder": "O que está a construir?",
+    "message_placeholder": "Como podemos ajudar?",
     "submit": "Enviar mensagem",
-    "success": "Obrigado — a sua mensagem está pronta. Entraremos em contacto em breve.",
+    "success": "Obrigado — a sua mensagem está pronta a enviar.",
     "error": "Preencha todos os campos com um e-mail válido."
   },
   "footer": {
-    "tagline": "Asia Green Technology",
+    "tagline": "Asia Green Tech",
     "rights": "© 2026 Asia Green Tech. Todos os direitos reservados."
   }
 }

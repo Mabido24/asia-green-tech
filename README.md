@@ -1,77 +1,37 @@
 # Asia Green Tech
 
-Static Jamstack website for **Asia Green Technology** — built for Laragon local development and Cloudflare Pages deployment.
+Static Jamstack website for **Asia Green Tech** — Laragon local development and Cloudflare Pages deployment.
+
+## What the company does
+
+1. **Business connections (B2B)** — introduce companies to investors, production sites and suppliers  
+2. **Digital marketing** — website redesign and online visibility (Google search + AI assistants / AI search), explained in plain language  
+3. **Portfolio** — past work (fill with real projects; no invented case studies)
 
 ## Stack
 
-- Static HTML (AI/LLM scraper friendly)
+- Static HTML
 - Tailwind CSS v4 (browser CDN)
-- Custom light / dark theme
+- Light / dark theme
 - Client-side i18n (9 languages, Arabic RTL)
 
-## Project structure
+## Local URL
 
-```text
-/
-├── index.html          # Homepage
-├── css/styles.css      # Brand theme & motion
-├── js/
-│   ├── i18n.js         # Translation engine (t / data-i18n)
-│   ├── theme.js        # Light / dark mode
-│   └── main.js         # Bootstrap
-├── locales/            # en fr de it es pt ru ar hi
-├── _headers            # Cloudflare security headers
-└── README.md
-```
+- **http://asia-green-tech.test/**
+- Fallback: **http://localhost/Asia%20Green%20Tech/**
 
-## Local development (Laragon)
+Serve over HTTP (Laragon). Do not open as `file://`.
 
-1. Ensure this folder is under Laragon’s `www` directory and Apache is running.
-2. Open: **http://asia-green-tech.test/**
-3. Fallback (always works): **http://localhost/Asia%20Green%20Tech/**
+## i18n
 
-> Note: the project folder name contains spaces (`Asia Green Tech`), so Laragon does not auto-create the `.test` domain. A manual hosts entry + Apache vhost for `asia-green-tech.test` is required (already configured on this machine).
+HTML: `data-i18n="home.title"`  
+JS: `t('home.title')`  
 
-Because locales load via `fetch()`, serve the site over HTTP (Laragon) — do not open `index.html` as a `file://` URL.
-
-If the browser still shows `DNS_PROBE_FINISHED_NXDOMAIN`, run `ipconfig /flushdns` in PowerShell, then retry.
-
-## i18n usage
-
-**In HTML** (preferred for static markup):
-
-```html
-<h1 data-i18n="home.title"></h1>
-```
-
-**In JavaScript**:
-
-```js
-t("home.title");
-// or
-window.AGT_I18N.t("home.title");
-```
-
-Supported locales: `en` (default), `fr`, `de`, `it`, `es`, `pt`, `ru`, `ar` (RTL), `hi`.
-
-Whenever you add UI text, update **all** JSON files in `locales/`.
-
-## Theme
-
-- Toggle button in the header
-- Preference stored in `localStorage` (`agt-theme`)
-- Respects `prefers-color-scheme` until the user chooses manually
+Locales: `en` `fr` `de` `it` `es` `pt` `ru` `ar` `hi` — update **all** JSON files when adding UI text.
 
 ## Cloudflare Pages
 
-| Setting        | Value        |
-|----------------|--------------|
-| Build command  | *(none)*     |
+| Setting | Value |
+|---------|--------|
+| Build command | *(none)* |
 | Output directory | `/` (root) |
-| Framework preset | None      |
-
-Deploy from the GitHub repository root. No build step is required.
-
-## License
-
-Proprietary — Asia Green Technology.

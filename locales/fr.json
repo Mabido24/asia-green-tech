@@ -1,16 +1,14 @@
 {
   "meta": {
-    "title": "Asia Green Tech — Innovation durable",
-    "description": "Asia Green Technology conçoit des solutions technologiques propres et régénératives en Asie — à la croisée de la nature, de l'ingénierie et des systèmes intelligents."
+    "title": "Asia Green Tech — Affaires & Marketing digital",
+    "description": "Asia Green Tech met en relation des sociétés avec des investisseurs, des sites de production et des fournisseurs, et propose du marketing digital : refonte de site et visibilité en ligne."
   },
   "nav": {
-    "home": "Accueil",
-    "about": "À propos",
-    "services": "Services",
-    "approach": "Approche",
+    "business": "Affaires",
+    "marketing": "Marketing digital",
+    "portfolio": "Portfolio",
     "contact": "Contact",
-    "language": "Langue",
-    "menu": "Menu"
+    "language": "Langue"
   },
   "theme": {
     "light": "Clair",
@@ -19,51 +17,59 @@
   },
   "home": {
     "brand": "Asia Green Tech",
-    "title": "Une technologie propre pour un avenir régénératif",
-    "subtitle": "Nous concevons et déployons l'innovation durable en Asie — en reliant nature, ingénierie et systèmes intelligents.",
-    "cta_primary": "Découvrir les solutions",
-    "cta_secondary": "Notre mission"
+    "title": "Mise en relation business et marketing digital",
+    "subtitle": "Nous mettons en relation des sociétés avec des investisseurs, des sites de production et des fournisseurs — et nous développons votre visibilité en ligne.",
+    "cta_primary": "Notre offre affaires",
+    "cta_secondary": "Voir nos réalisations"
   },
-  "about": {
-    "title": "Conçus pour la décennie régénérative de l'Asie",
-    "subtitle": "Asia Green Technology accompagne entreprises, villes et innovateurs pour transformer l'ambition climatique en systèmes opérationnels.",
-    "body": "Des infrastructures renouvelables aux plateformes de ressources intelligentes, nous allions expertise locale et standards d'ingénierie mondiaux — pour des déploiements pratiques, mesurables et prêts à l'échelle."
+  "business": {
+    "title": "Affaires",
+    "subtitle": "Nous mettons en relation des sociétés (B2B) avec les bons partenaires pour se développer et produire.",
+    "item1_title": "Investisseurs",
+    "item1_body": "Nous mettons en relation des entreprises avec des investisseurs à la recherche d’opportunités solides.",
+    "item2_title": "Sites de production",
+    "item2_body": "Nous aidons les sociétés à trouver des sites de production adaptés à leurs besoins.",
+    "item3_title": "Fournisseurs",
+    "item3_body": "Nous présentons aux entreprises des fournisseurs fiables pour leurs opérations."
   },
-  "services": {
-    "title": "Des solutions à impact cumulatif",
-    "subtitle": "Trois capacités ciblées — efficaces seules ou combinées.",
-    "item1_title": "Systèmes d'énergie propre",
-    "item1_body": "Solaire, stockage et micro-réseaux hybrides conçus pour la fiabilité en milieu urbain dense comme en zones isolées.",
-    "item2_title": "Plateformes de ressources intelligentes",
-    "item2_body": "Jumeaux numériques et supervision pour réduire le gaspillage d'eau, d'énergie et dans l'industrie.",
-    "item3_title": "Conseil et livraison climat",
-    "item3_body": "De la stratégie à l'exécution : feuille de route, orchestration des partenaires et programmes mesurables."
+  "marketing": {
+    "title": "Marketing digital",
+    "subtitle": "Refonte de site internet et visibilité en ligne — y compris sur Google et auprès des assistants IA.",
+    "item1_title": "Refonte de site internet",
+    "item1_body": "Nous refaisons votre site pour qu’il soit clair, moderne et prêt pour le business.",
+    "item2_title": "Être trouvé sur Google (recherche classique)",
+    "item2_body": "Nous améliorons vos pages pour que les gens vous trouvent plus facilement quand ils cherchent sur Google.",
+    "item3_title": "Être recommandé par les assistants IA",
+    "item3_body": "Nous préparons votre contenu pour que les outils d’IA (comme ChatGPT) comprennent votre activité et puissent vous citer dans leurs réponses.",
+    "item4_title": "Être visible dans les résultats de recherche IA",
+    "item4_body": "Nous travaillons aussi votre présence dans les nouvelles recherches assistées par l’IA (par exemple les résumés IA de Google), là où vos clients cherchent aujourd’hui."
   },
-  "approach": {
-    "title": "Notre méthode",
-    "subtitle": "Un chemin clair de l'ambition à l'infrastructure en service.",
-    "step1_title": "Découvrir",
-    "step1_body": "Cartographier contraintes, actifs et objectifs d'impact avec vos équipes sur le terrain.",
-    "step2_title": "Concevoir",
-    "step2_body": "Prototyper la bonne architecture — technique, opérationnelle et financière — avant d'engager le capital.",
-    "step3_title": "Déployer",
-    "step3_body": "Mettre en œuvre avec des partenaires locaux, vérifier la performance et laisser des systèmes que vos équipes maîtrisent."
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Ce qu’Asia Green Tech a déjà réalisé.",
+    "note": "Les détails des projets seront listés ici. Envoyez-nous la liste de vos réalisations et nous les publierons sur cette page.",
+    "slot1_title": "Mises en relation business",
+    "slot1_body": "Connexions entre sociétés et investisseurs, sites de production ou fournisseurs.",
+    "slot2_title": "Projets sites internet",
+    "slot2_body": "Refontes de sites réalisées pour des entreprises clientes.",
+    "slot3_title": "Projets de visibilité",
+    "slot3_body": "Travaux pour améliorer la visibilité sur Google et dans les réponses des IA."
   },
   "contact": {
-    "title": "Engageons la conversation",
-    "subtitle": "Parlez-nous de votre projet. Réponse sous deux jours ouvrés.",
+    "title": "Contact",
+    "subtitle": "Dites-nous ce dont vous avez besoin. Nous vous répondrons.",
     "name_label": "Nom complet",
     "name_placeholder": "Votre nom",
     "email_label": "E-mail",
     "email_placeholder": "vous@entreprise.com",
     "message_label": "Message",
-    "message_placeholder": "Que construisez-vous ?",
+    "message_placeholder": "Comment pouvons-nous vous aider ?",
     "submit": "Envoyer le message",
-    "success": "Merci — votre message est prêt. Nous vous recontacterons bientôt.",
+    "success": "Merci — votre message est prêt à être envoyé.",
     "error": "Veuillez remplir tous les champs avec une adresse e-mail valide."
   },
   "footer": {
-    "tagline": "Asia Green Technology",
+    "tagline": "Asia Green Tech",
     "rights": "© 2026 Asia Green Tech. Tous droits réservés."
   }
 }

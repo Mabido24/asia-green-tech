@@ -1,4 +1,4 @@
-/* Asia Green Tech — brand theme, sections & motion */
+/* Asia Green Tech — business site theme */
 
 :root {
   --brand-50: #ecfdf5;
@@ -391,7 +391,7 @@ html.dark .brand-hero {
   background: color-mix(in srgb, var(--surface-elevated) 80%, transparent);
 }
 
-/* Shared sections */
+/* Sections */
 .section {
   padding: 5.5rem 1.25rem;
   scroll-margin-top: calc(var(--header-h) + 0.75rem);
@@ -421,23 +421,15 @@ html.dark .brand-hero {
   color: var(--ink-muted);
 }
 
-.section-body {
-  margin: 0;
-  max-width: 44rem;
-  font-size: 1.08rem;
-  line-height: 1.75;
-  color: var(--ink-muted);
-}
-
-.section-about {
+.section-business {
   background: var(--surface);
 }
 
-.section-services {
+.section-marketing {
   background: var(--surface-alt);
 }
 
-.section-approach {
+.section-portfolio {
   background: var(--surface);
 }
 
@@ -447,102 +439,80 @@ html.dark .brand-hero {
     var(--surface-alt);
 }
 
-/* Services — list rows, not cards */
-.service-list {
+/* Offer lists (Business + Marketing) */
+.offer-list {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: grid;
-  gap: 0;
   border-top: 1px solid var(--border);
 }
 
-.service-item {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 1.25rem 1.75rem;
+.offer-item {
   padding: 1.75rem 0;
   border-bottom: 1px solid var(--border);
   transition: transform 0.25s ease;
 }
 
-.service-item:hover {
+.offer-item:hover {
   transform: translateX(6px);
 }
 
-body.rtl .service-item:hover {
+body.rtl .offer-item:hover {
   transform: translateX(-6px);
 }
 
-.service-index {
-  font-family: "Sora", "Manrope", system-ui, sans-serif;
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--brand-600);
-  padding-top: 0.2rem;
-}
-
-html.dark .service-index {
-  color: var(--brand-300);
-}
-
-.service-item h3 {
+.offer-item h3 {
   margin: 0 0 0.45rem;
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-.service-item p {
+.offer-item p {
+  margin: 0;
+  max-width: 42rem;
+  line-height: 1.65;
+  color: var(--ink-muted);
+}
+
+/* Portfolio */
+.portfolio-note {
+  margin: 0 0 2rem;
+  max-width: 40rem;
+  line-height: 1.65;
+  color: var(--ink-muted);
+}
+
+.portfolio-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.portfolio-item {
+  padding: 1.35rem 0;
+  border-top: 1px solid var(--border);
+}
+
+.portfolio-item:last-child {
+  border-bottom: 1px solid var(--border);
+}
+
+.portfolio-item h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.portfolio-item p {
   margin: 0;
   max-width: 40rem;
   line-height: 1.65;
   color: var(--ink-muted);
 }
 
-/* Approach */
-.approach-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem 1.75rem;
-  counter-reset: none;
-}
-
-.approach-step {
-  display: grid;
-  gap: 1rem;
-  padding-top: 1.25rem;
-  border-top: 2px solid var(--brand-500);
-}
-
-.approach-num {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.1rem;
-  height: 2.1rem;
-  border-radius: 999px;
-  background: linear-gradient(135deg, var(--brand-600), var(--brand-500));
-  color: #fff;
-  font-family: "Sora", "Manrope", system-ui, sans-serif;
-  font-size: 0.9rem;
-  font-weight: 700;
-}
-
-.approach-step h3 {
-  margin: 0 0 0.4rem;
-  font-size: 1.2rem;
-}
-
-.approach-step p {
-  margin: 0;
-  line-height: 1.65;
-  color: var(--ink-muted);
-}
-
-/* Contact form — interaction surface */
+/* Contact */
 .contact-layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
@@ -725,7 +695,7 @@ html.dark .footer-nav a:hover {
     transition: none;
   }
 
-  .service-item:hover {
+  .offer-item:hover {
     transform: none;
   }
 
@@ -737,10 +707,6 @@ html.dark .footer-nav a:hover {
 @media (max-width: 960px) {
   .nav-links {
     display: none;
-  }
-
-  .approach-list {
-    grid-template-columns: 1fr;
   }
 
   .contact-layout {
@@ -763,9 +729,5 @@ html.dark .footer-nav a:hover {
 
   .section {
     padding: 4rem 1.25rem;
-  }
-
-  .service-item {
-    gap: 1rem;
   }
 }

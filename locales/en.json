@@ -1,16 +1,14 @@
 {
   "meta": {
-    "title": "Asia Green Tech — Sustainable Innovation",
-    "description": "Asia Green Technology designs clean, regenerative tech solutions across Asia — bridging nature, engineering, and intelligent systems."
+    "title": "Asia Green Tech — Business & Digital Marketing",
+    "description": "Asia Green Tech connects companies with investors, production sites and suppliers, and provides digital marketing: website redesign and online visibility."
   },
   "nav": {
-    "home": "Home",
-    "about": "About",
-    "services": "Services",
-    "approach": "Approach",
+    "business": "Business",
+    "marketing": "Digital marketing",
+    "portfolio": "Portfolio",
     "contact": "Contact",
-    "language": "Language",
-    "menu": "Menu"
+    "language": "Language"
   },
   "theme": {
     "light": "Light",
@@ -19,51 +17,59 @@
   },
   "home": {
     "brand": "Asia Green Tech",
-    "title": "Clean technology for a regenerative future",
-    "subtitle": "We design and deliver sustainable innovation across Asia — bridging nature, engineering, and intelligent systems.",
-    "cta_primary": "Explore solutions",
-    "cta_secondary": "Our mission"
+    "title": "Business connections and digital marketing",
+    "subtitle": "We connect companies with investors, production sites and suppliers — and we grow your visibility online.",
+    "cta_primary": "Our business offer",
+    "cta_secondary": "See our work"
   },
-  "about": {
-    "title": "Built for Asia’s regenerative decade",
-    "subtitle": "Asia Green Technology partners with enterprises, cities, and innovators to turn climate ambition into working systems.",
-    "body": "From renewable infrastructure to intelligent resource platforms, we combine local insight with global engineering standards — so every deployment is practical, measurable, and ready to scale."
+  "business": {
+    "title": "Business connections",
+    "subtitle": "We introduce companies (B2B) to the right partners to grow and operate.",
+    "item1_title": "Investors",
+    "item1_body": "We connect businesses with investors looking for solid opportunities.",
+    "item2_title": "Production sites",
+    "item2_body": "We help companies find production sites adapted to their needs.",
+    "item3_title": "Suppliers",
+    "item3_body": "We introduce companies to reliable suppliers for their operations."
   },
-  "services": {
-    "title": "Solutions that compound impact",
-    "subtitle": "Three focused capabilities — designed to work alone or as one stack.",
-    "item1_title": "Clean energy systems",
-    "item1_body": "Solar, storage, and hybrid microgrids engineered for reliability in dense urban and remote environments.",
-    "item2_title": "Smart resource platforms",
-    "item2_body": "Digital twins and monitoring layers that cut waste across water, energy, and industrial operations.",
-    "item3_title": "Climate advisory & delivery",
-    "item3_body": "Strategy-to-execution support: roadmap design, vendor orchestration, and measurable rollout programs."
+  "marketing": {
+    "title": "Digital marketing",
+    "subtitle": "Website redesign and online visibility — including on Google and AI assistants.",
+    "item1_title": "Website redesign",
+    "item1_body": "We rebuild your website so it is clear, modern and ready for business.",
+    "item2_title": "Being found on Google (classic search)",
+    "item2_body": "We improve your pages so people can find you more easily when they search on Google.",
+    "item3_title": "Being recommended by AI assistants",
+    "item3_body": "We prepare your content so AI tools (like ChatGPT) can understand your business and mention you in their answers.",
+    "item4_title": "Being visible in AI search results",
+    "item4_body": "We also work on visibility in new AI search experiences (for example Google’s AI summaries), so your brand appears where customers look today."
   },
-  "approach": {
-    "title": "How we work",
-    "subtitle": "A clear path from ambition to operating infrastructure.",
-    "step1_title": "Discover",
-    "step1_body": "Map constraints, assets, and impact targets with your teams on the ground.",
-    "step2_title": "Design",
-    "step2_body": "Prototype the right architecture — technical, operational, and financial — before capital is locked.",
-    "step3_title": "Deploy",
-    "step3_body": "Implement with local partners, verify performance, and leave systems that your teams can own."
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "What Asia Green Tech has already delivered.",
+    "note": "Project details will be listed here. Send us your past work list and we will publish it on this page.",
+    "slot1_title": "Business introductions",
+    "slot1_body": "Connections between companies and investors, production sites or suppliers.",
+    "slot2_title": "Website projects",
+    "slot2_body": "Website redesigns delivered for client companies.",
+    "slot3_title": "Visibility projects",
+    "slot3_body": "Work to improve visibility on Google and in AI answers."
   },
   "contact": {
-    "title": "Start a conversation",
-    "subtitle": "Tell us about your project. We respond within two business days.",
+    "title": "Contact",
+    "subtitle": "Tell us what you need. We will get back to you.",
     "name_label": "Full name",
     "name_placeholder": "Your name",
     "email_label": "Email",
     "email_placeholder": "you@company.com",
     "message_label": "Message",
-    "message_placeholder": "What are you building?",
+    "message_placeholder": "How can we help?",
     "submit": "Send message",
-    "success": "Thank you — your message is ready to send. We will be in touch shortly.",
+    "success": "Thank you — your message is ready to send.",
     "error": "Please complete all fields with a valid email address."
   },
   "footer": {
-    "tagline": "Asia Green Technology",
+    "tagline": "Asia Green Tech",
     "rights": "© 2026 Asia Green Tech. All rights reserved."
   }
 }
