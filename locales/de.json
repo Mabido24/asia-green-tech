@@ -7,8 +7,10 @@
     "home": "Startseite",
     "about": "Über uns",
     "services": "Leistungen",
+    "approach": "Ansatz",
     "contact": "Kontakt",
-    "language": "Sprache"
+    "language": "Sprache",
+    "menu": "Menü"
   },
   "theme": {
     "light": "Hell",
@@ -21,6 +23,44 @@
     "subtitle": "Wir gestalten und liefern nachhaltige Innovation in Asien — und verbinden Natur, Engineering und intelligente Systeme.",
     "cta_primary": "Lösungen entdecken",
     "cta_secondary": "Unsere Mission"
+  },
+  "about": {
+    "title": "Für Asiens regenerative Dekade gebaut",
+    "subtitle": "Asia Green Technology begleitet Unternehmen, Städte und Innovatoren dabei, Klimaambition in funktionierende Systeme zu verwandeln.",
+    "body": "Von erneuerbarer Infrastruktur bis zu intelligenten Ressourcenplattformen verbinden wir lokales Wissen mit globalen Engineering-Standards — für praxistaugliche, messbare und skalierbare Einsätze."
+  },
+  "services": {
+    "title": "Lösungen mit wachsender Wirkung",
+    "subtitle": "Drei fokussierte Fähigkeiten — allein stark, zusammen noch stärker.",
+    "item1_title": "Saubere Energiesysteme",
+    "item1_body": "Solar, Speicher und hybride Microgrids — ausgelegt auf Zuverlässigkeit in dichten Städten und abgelegenen Regionen.",
+    "item2_title": "Intelligente Ressourcenplattformen",
+    "item2_body": "Digitale Zwillinge und Monitoring, die Verschwendung bei Wasser, Energie und Industrieprozessen reduzieren.",
+    "item3_title": "Klima-Beratung & Umsetzung",
+    "item3_body": "Von der Strategie zur Ausführung: Roadmaps, Partnerkoordination und messbare Rollout-Programme."
+  },
+  "approach": {
+    "title": "So arbeiten wir",
+    "subtitle": "Ein klarer Weg von der Ambition zur betriebsbereiten Infrastruktur.",
+    "step1_title": "Entdecken",
+    "step1_body": "Rahmenbedingungen, Assets und Wirkungsziele gemeinsam mit Ihren Teams vor Ort erfassen.",
+    "step2_title": "Gestalten",
+    "step2_body": "Die richtige Architektur — technisch, operativ und finanziell — prototypisieren, bevor Kapital gebunden wird.",
+    "step3_title": "Umsetzen",
+    "step3_body": "Mit lokalen Partnern implementieren, Leistung verifizieren und Systeme hinterlassen, die Ihre Teams besitzen können."
+  },
+  "contact": {
+    "title": "Gespräch starten",
+    "subtitle": "Erzählen Sie uns von Ihrem Projekt. Antwort innerhalb von zwei Werktagen.",
+    "name_label": "Vollständiger Name",
+    "name_placeholder": "Ihr Name",
+    "email_label": "E-Mail",
+    "email_placeholder": "sie@firma.com",
+    "message_label": "Nachricht",
+    "message_placeholder": "Was bauen Sie?",
+    "submit": "Nachricht senden",
+    "success": "Danke — Ihre Nachricht ist bereit. Wir melden uns in Kürze.",
+    "error": "Bitte füllen Sie alle Felder mit einer gültigen E-Mail-Adresse aus."
   },
   "footer": {
     "tagline": "Asia Green Technology",

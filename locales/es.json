@@ -7,8 +7,10 @@
     "home": "Inicio",
     "about": "Nosotros",
     "services": "Servicios",
+    "approach": "Enfoque",
     "contact": "Contacto",
-    "language": "Idioma"
+    "language": "Idioma",
+    "menu": "Menú"
   },
   "theme": {
     "light": "Claro",
@@ -21,6 +23,44 @@
     "subtitle": "Diseñamos y entregamos innovación sostenible en Asia — conectando naturaleza, ingeniería y sistemas inteligentes.",
     "cta_primary": "Explorar soluciones",
     "cta_secondary": "Nuestra misión"
+  },
+  "about": {
+    "title": "Hechos para la década regenerativa de Asia",
+    "subtitle": "Asia Green Technology colabora con empresas, ciudades e innovadores para convertir la ambición climática en sistemas que funcionan.",
+    "body": "Desde infraestructura renovable hasta plataformas de recursos inteligentes, combinamos conocimiento local y estándares de ingeniería globales — para despliegues prácticos, medibles y listos para escalar."
+  },
+  "services": {
+    "title": "Soluciones que multiplican el impacto",
+    "subtitle": "Tres capacidades enfocadas — efectivas solas o como un solo stack.",
+    "item1_title": "Sistemas de energía limpia",
+    "item1_body": "Solar, almacenamiento y microredes híbridas diseñadas para la fiabilidad en entornos urbanos densos y remotos.",
+    "item2_title": "Plataformas de recursos inteligentes",
+    "item2_body": "Gemelos digitales y monitorización que reducen el desperdicio de agua, energía y operaciones industriales.",
+    "item3_title": "Asesoría y entrega climática",
+    "item3_body": "De la estrategia a la ejecución: hoja de ruta, orquestación de partners y programas medibles."
+  },
+  "approach": {
+    "title": "Cómo trabajamos",
+    "subtitle": "Un camino claro desde la ambición hasta la infraestructura en operación.",
+    "step1_title": "Descubrir",
+    "step1_body": "Mapear restricciones, activos y objetivos de impacto con tus equipos sobre el terreno.",
+    "step2_title": "Diseñar",
+    "step2_body": "Prototipar la arquitectura correcta — técnica, operativa y financiera — antes de comprometer capital.",
+    "step3_title": "Desplegar",
+    "step3_body": "Implementar con partners locales, verificar el rendimiento y dejar sistemas que tus equipos puedan poseer."
+  },
+  "contact": {
+    "title": "Empecemos la conversación",
+    "subtitle": "Cuéntanos tu proyecto. Respondemos en dos días laborables.",
+    "name_label": "Nombre completo",
+    "name_placeholder": "Tu nombre",
+    "email_label": "Correo",
+    "email_placeholder": "tu@empresa.com",
+    "message_label": "Mensaje",
+    "message_placeholder": "¿Qué estás construyendo?",
+    "submit": "Enviar mensaje",
+    "success": "Gracias — tu mensaje está listo. Nos pondremos en contacto pronto.",
+    "error": "Completa todos los campos con un correo electrónico válido."
   },
   "footer": {
     "tagline": "Asia Green Technology",

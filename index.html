@@ -7,7 +7,6 @@
     <meta name="theme-color" content="#059669" />
     <title>Asia Green Tech</title>
 
-    <!-- Prevent theme flash -->
     <script>
       (function () {
         try {
@@ -46,16 +45,17 @@
     </style>
 
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23059669'/%3E%3Cpath d='M8 20c4-8 12-10 16-12-2 6-4 12-8 14-3 1.5-6 0-8-2z' fill='%23a7f3d0'/%3E%3C/svg%3E" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23059669'/%3E%3Cpath d='M8 20c4-8 12-10 16-12-2 6-4 12-8 14-3 1.5-6 0-8-2z' fill='%23a7f3d0'/%3E%3C/svg%3E"
+    />
   </head>
   <body>
     <div class="page-shell">
-      <div class="hero-plane" aria-hidden="true"></div>
-
       <div class="site-content">
         <header class="site-header">
           <div class="nav-inner">
-            <a class="brand-link" href="./" aria-label="Asia Green Tech">
+            <a class="brand-link" href="#top" aria-label="Asia Green Tech">
               <span class="brand-badge" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
                   <path
@@ -73,6 +73,13 @@
               </span>
               <span class="brand-mark" data-i18n="home.brand">Asia Green Tech</span>
             </a>
+
+            <nav class="nav-links" aria-label="Primary">
+              <a href="#about" data-i18n="nav.about">About</a>
+              <a href="#services" data-i18n="nav.services">Services</a>
+              <a href="#approach" data-i18n="nav.approach">Approach</a>
+              <a href="#contact" data-i18n="nav.contact">Contact</a>
+            </nav>
 
             <div class="nav-actions">
               <label class="sr-only" for="lang-select" data-i18n="nav.language"
@@ -127,8 +134,9 @@
           </div>
         </header>
 
-        <main>
+        <main id="top">
           <section class="hero" aria-labelledby="brand-hero">
+            <div class="hero-plane" aria-hidden="true"></div>
             <div class="hero-inner">
               <div class="hero-copy">
                 <h1 id="brand-hero" class="brand-hero reveal" data-i18n="home.brand">
@@ -142,7 +150,7 @@
                   nature, engineering, and intelligent systems.
                 </p>
                 <div class="cta-group reveal reveal-delay-3">
-                  <a class="btn btn-primary" href="#contact" data-i18n="home.cta_primary"
+                  <a class="btn btn-primary" href="#services" data-i18n="home.cta_primary"
                     >Explore solutions</a
                   >
                   <a class="btn btn-secondary" href="#about" data-i18n="home.cta_secondary"
@@ -152,21 +160,206 @@
               </div>
             </div>
           </section>
+
+          <section id="about" class="section section-about" aria-labelledby="about-title">
+            <div class="section-inner">
+              <header class="section-header scroll-reveal">
+                <h2 id="about-title" data-i18n="about.title">
+                  Built for Asia’s regenerative decade
+                </h2>
+                <p class="section-subtitle" data-i18n="about.subtitle">
+                  Asia Green Technology partners with enterprises, cities, and innovators
+                  to turn climate ambition into working systems.
+                </p>
+              </header>
+              <p class="section-body scroll-reveal" data-i18n="about.body">
+                From renewable infrastructure to intelligent resource platforms, we combine
+                local insight with global engineering standards — so every deployment is
+                practical, measurable, and ready to scale.
+              </p>
+            </div>
+          </section>
+
+          <section
+            id="services"
+            class="section section-services"
+            aria-labelledby="services-title"
+          >
+            <div class="section-inner">
+              <header class="section-header scroll-reveal">
+                <h2 id="services-title" data-i18n="services.title">
+                  Solutions that compound impact
+                </h2>
+                <p class="section-subtitle" data-i18n="services.subtitle">
+                  Three focused capabilities — designed to work alone or as one stack.
+                </p>
+              </header>
+
+              <ul class="service-list">
+                <li class="service-item scroll-reveal">
+                  <span class="service-index" aria-hidden="true">01</span>
+                  <div>
+                    <h3 data-i18n="services.item1_title">Clean energy systems</h3>
+                    <p data-i18n="services.item1_body">
+                      Solar, storage, and hybrid microgrids engineered for reliability in
+                      dense urban and remote environments.
+                    </p>
+                  </div>
+                </li>
+                <li class="service-item scroll-reveal">
+                  <span class="service-index" aria-hidden="true">02</span>
+                  <div>
+                    <h3 data-i18n="services.item2_title">Smart resource platforms</h3>
+                    <p data-i18n="services.item2_body">
+                      Digital twins and monitoring layers that cut waste across water,
+                      energy, and industrial operations.
+                    </p>
+                  </div>
+                </li>
+                <li class="service-item scroll-reveal">
+                  <span class="service-index" aria-hidden="true">03</span>
+                  <div>
+                    <h3 data-i18n="services.item3_title">Climate advisory &amp; delivery</h3>
+                    <p data-i18n="services.item3_body">
+                      Strategy-to-execution support: roadmap design, vendor orchestration,
+                      and measurable rollout programs.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section
+            id="approach"
+            class="section section-approach"
+            aria-labelledby="approach-title"
+          >
+            <div class="section-inner">
+              <header class="section-header scroll-reveal">
+                <h2 id="approach-title" data-i18n="approach.title">How we work</h2>
+                <p class="section-subtitle" data-i18n="approach.subtitle">
+                  A clear path from ambition to operating infrastructure.
+                </p>
+              </header>
+
+              <ol class="approach-list">
+                <li class="approach-step scroll-reveal">
+                  <span class="approach-num" aria-hidden="true">1</span>
+                  <div>
+                    <h3 data-i18n="approach.step1_title">Discover</h3>
+                    <p data-i18n="approach.step1_body">
+                      Map constraints, assets, and impact targets with your teams on the
+                      ground.
+                    </p>
+                  </div>
+                </li>
+                <li class="approach-step scroll-reveal">
+                  <span class="approach-num" aria-hidden="true">2</span>
+                  <div>
+                    <h3 data-i18n="approach.step2_title">Design</h3>
+                    <p data-i18n="approach.step2_body">
+                      Prototype the right architecture — technical, operational, and
+                      financial — before capital is locked.
+                    </p>
+                  </div>
+                </li>
+                <li class="approach-step scroll-reveal">
+                  <span class="approach-num" aria-hidden="true">3</span>
+                  <div>
+                    <h3 data-i18n="approach.step3_title">Deploy</h3>
+                    <p data-i18n="approach.step3_body">
+                      Implement with local partners, verify performance, and leave systems
+                      that your teams can own.
+                    </p>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </section>
+
+          <section
+            id="contact"
+            class="section section-contact"
+            aria-labelledby="contact-title"
+          >
+            <div class="section-inner contact-layout">
+              <header class="section-header scroll-reveal">
+                <h2 id="contact-title" data-i18n="contact.title">Start a conversation</h2>
+                <p class="section-subtitle" data-i18n="contact.subtitle">
+                  Tell us about your project. We respond within two business days.
+                </p>
+              </header>
+
+              <form id="contact-form" class="contact-form scroll-reveal" novalidate>
+                <div class="field">
+                  <label for="contact-name" data-i18n="contact.name_label">Full name</label>
+                  <input
+                    id="contact-name"
+                    name="name"
+                    type="text"
+                    autocomplete="name"
+                    required
+                    data-i18n-placeholder="contact.name_placeholder"
+                    placeholder="Your name"
+                  />
+                </div>
+                <div class="field">
+                  <label for="contact-email" data-i18n="contact.email_label">Email</label>
+                  <input
+                    id="contact-email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    required
+                    data-i18n-placeholder="contact.email_placeholder"
+                    placeholder="you@company.com"
+                  />
+                </div>
+                <div class="field">
+                  <label for="contact-message" data-i18n="contact.message_label"
+                    >Message</label
+                  >
+                  <textarea
+                    id="contact-message"
+                    name="message"
+                    rows="5"
+                    required
+                    data-i18n-placeholder="contact.message_placeholder"
+                    placeholder="What are you building?"
+                  ></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit" data-i18n="contact.submit">
+                  Send message
+                </button>
+                <p
+                  id="contact-status"
+                  class="form-status"
+                  role="status"
+                  aria-live="polite"
+                  hidden
+                ></p>
+              </form>
+            </div>
+          </section>
         </main>
 
-        <footer class="site-footer" id="about">
+        <footer class="site-footer">
           <div class="footer-inner">
-            <p class="footer-tagline" data-i18n="footer.tagline">
-              Asia Green Technology
-            </p>
-            <p data-i18n="footer.rights">
-              © 2026 Asia Green Tech. All rights reserved.
-            </p>
+            <div class="footer-brand">
+              <p class="footer-tagline" data-i18n="footer.tagline">Asia Green Technology</p>
+              <p data-i18n="footer.rights">
+                © 2026 Asia Green Tech. All rights reserved.
+              </p>
+            </div>
+            <nav class="footer-nav" aria-label="Footer">
+              <a href="#about" data-i18n="nav.about">About</a>
+              <a href="#services" data-i18n="nav.services">Services</a>
+              <a href="#approach" data-i18n="nav.approach">Approach</a>
+              <a href="#contact" data-i18n="nav.contact">Contact</a>
+            </nav>
           </div>
         </footer>
-
-        <!-- Anchor target for primary CTA (placeholder until Contact page exists) -->
-        <div id="contact" hidden aria-hidden="true"></div>
       </div>
     </div>
 

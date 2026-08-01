@@ -7,8 +7,10 @@
     "home": "Início",
     "about": "Sobre",
     "services": "Serviços",
+    "approach": "Abordagem",
     "contact": "Contacto",
-    "language": "Idioma"
+    "language": "Idioma",
+    "menu": "Menu"
   },
   "theme": {
     "light": "Claro",
@@ -21,6 +23,44 @@
     "subtitle": "Concebemos e entregamos inovação sustentável na Ásia — ligando natureza, engenharia e sistemas inteligentes.",
     "cta_primary": "Explorar soluções",
     "cta_secondary": "A nossa missão"
+  },
+  "about": {
+    "title": "Feitos para a década regenerativa da Ásia",
+    "subtitle": "A Asia Green Technology colabora com empresas, cidades e inovadores para transformar ambição climática em sistemas operacionais.",
+    "body": "Desde infraestruturas renováveis a plataformas de recursos inteligentes, combinamos conhecimento local com padrões globais de engenharia — para implementações práticas, mensuráveis e prontas a escalar."
+  },
+  "services": {
+    "title": "Soluções que multiplicam o impacto",
+    "subtitle": "Três capacidades focadas — eficazes sozinhas ou como um só stack.",
+    "item1_title": "Sistemas de energia limpa",
+    "item1_body": "Solar, armazenamento e microrredes híbridas projetadas para fiabilidade em ambientes urbanos densos e remotos.",
+    "item2_title": "Plataformas de recursos inteligentes",
+    "item2_body": "Gêmeos digitais e monitorização que reduzem o desperdício de água, energia e operações industriais.",
+    "item3_title": "Consultoria e entrega climática",
+    "item3_body": "Da estratégia à execução: roadmap, orquestração de parceiros e programas mensuráveis."
+  },
+  "approach": {
+    "title": "Como trabalhamos",
+    "subtitle": "Um caminho claro da ambição à infraestrutura em operação.",
+    "step1_title": "Descobrir",
+    "step1_body": "Mapear restrições, ativos e metas de impacto com as suas equipas no terreno.",
+    "step2_title": "Desenhar",
+    "step2_body": "Prototipar a arquitetura certa — técnica, operacional e financeira — antes de comprometer capital.",
+    "step3_title": "Implementar",
+    "step3_body": "Executar com parceiros locais, verificar o desempenho e deixar sistemas que as suas equipas possam gerir."
+  },
+  "contact": {
+    "title": "Comece a conversa",
+    "subtitle": "Conte-nos o seu projeto. Respondemos em dois dias úteis.",
+    "name_label": "Nome completo",
+    "name_placeholder": "O seu nome",
+    "email_label": "E-mail",
+    "email_placeholder": "voce@empresa.com",
+    "message_label": "Mensagem",
+    "message_placeholder": "O que está a construir?",
+    "submit": "Enviar mensagem",
+    "success": "Obrigado — a sua mensagem está pronta. Entraremos em contacto em breve.",
+    "error": "Preencha todos os campos com um e-mail válido."
   },
   "footer": {
     "tagline": "Asia Green Technology",

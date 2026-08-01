@@ -7,8 +7,10 @@
     "home": "Home",
     "about": "About",
     "services": "Services",
+    "approach": "Approach",
     "contact": "Contact",
-    "language": "Language"
+    "language": "Language",
+    "menu": "Menu"
   },
   "theme": {
     "light": "Light",
@@ -21,6 +23,44 @@
     "subtitle": "We design and deliver sustainable innovation across Asia — bridging nature, engineering, and intelligent systems.",
     "cta_primary": "Explore solutions",
     "cta_secondary": "Our mission"
+  },
+  "about": {
+    "title": "Built for Asia’s regenerative decade",
+    "subtitle": "Asia Green Technology partners with enterprises, cities, and innovators to turn climate ambition into working systems.",
+    "body": "From renewable infrastructure to intelligent resource platforms, we combine local insight with global engineering standards — so every deployment is practical, measurable, and ready to scale."
+  },
+  "services": {
+    "title": "Solutions that compound impact",
+    "subtitle": "Three focused capabilities — designed to work alone or as one stack.",
+    "item1_title": "Clean energy systems",
+    "item1_body": "Solar, storage, and hybrid microgrids engineered for reliability in dense urban and remote environments.",
+    "item2_title": "Smart resource platforms",
+    "item2_body": "Digital twins and monitoring layers that cut waste across water, energy, and industrial operations.",
+    "item3_title": "Climate advisory & delivery",
+    "item3_body": "Strategy-to-execution support: roadmap design, vendor orchestration, and measurable rollout programs."
+  },
+  "approach": {
+    "title": "How we work",
+    "subtitle": "A clear path from ambition to operating infrastructure.",
+    "step1_title": "Discover",
+    "step1_body": "Map constraints, assets, and impact targets with your teams on the ground.",
+    "step2_title": "Design",
+    "step2_body": "Prototype the right architecture — technical, operational, and financial — before capital is locked.",
+    "step3_title": "Deploy",
+    "step3_body": "Implement with local partners, verify performance, and leave systems that your teams can own."
+  },
+  "contact": {
+    "title": "Start a conversation",
+    "subtitle": "Tell us about your project. We respond within two business days.",
+    "name_label": "Full name",
+    "name_placeholder": "Your name",
+    "email_label": "Email",
+    "email_placeholder": "you@company.com",
+    "message_label": "Message",
+    "message_placeholder": "What are you building?",
+    "submit": "Send message",
+    "success": "Thank you — your message is ready to send. We will be in touch shortly.",
+    "error": "Please complete all fields with a valid email address."
   },
   "footer": {
     "tagline": "Asia Green Technology",
