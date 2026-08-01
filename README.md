@@ -26,12 +26,15 @@ Static Jamstack website for **Asia Green Technology** — built for Laragon loca
 
 ## Local development (Laragon)
 
-1. Ensure this folder is under Laragon’s `www` directory.
-2. Start Laragon (Apache / Nginx).
-3. Open: `http://asia-green-tech.test/`  
-   or the equivalent virtual host / path for your machine.
+1. Ensure this folder is under Laragon’s `www` directory and Apache is running.
+2. Open: **http://asia-green-tech.test/**
+3. Fallback (always works): **http://localhost/Asia%20Green%20Tech/**
+
+> Note: the project folder name contains spaces (`Asia Green Tech`), so Laragon does not auto-create the `.test` domain. A manual hosts entry + Apache vhost for `asia-green-tech.test` is required (already configured on this machine).
 
 Because locales load via `fetch()`, serve the site over HTTP (Laragon) — do not open `index.html` as a `file://` URL.
+
+If the browser still shows `DNS_PROBE_FINISHED_NXDOMAIN`, run `ipconfig /flushdns` in PowerShell, then retry.
 
 ## i18n usage
 
