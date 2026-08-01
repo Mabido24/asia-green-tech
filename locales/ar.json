@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "Asia Green Tech — ابتكار مستدام",
+    "description": "تصمّم Asia Green Technology حلولًا تقنية نظيفة ومتجددة في آسيا — تربط بين الطبيعة والهندسة والأنظمة الذكية."
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "الخدمات",
+    "contact": "اتصل بنا",
+    "language": "اللغة"
+  },
+  "theme": {
+    "light": "فاتح",
+    "dark": "داكن",
+    "toggle": "المظهر"
+  },
+  "home": {
+    "brand": "Asia Green Tech",
+    "title": "تقنية نظيفة لمستقبل متجدد",
+    "subtitle": "نصمّم ونقدّم ابتكارًا مستدامًا عبر آسيا — جامعًا بين الطبيعة والهندسة والأنظمة الذكية.",
+    "cta_primary": "استكشف الحلول",
+    "cta_secondary": "مهمتنا"
+  },
+  "footer": {
+    "tagline": "Asia Green Technology",
+    "rights": "© 2026 Asia Green Tech. جميع الحقوق محفوظة."
+  }
+}

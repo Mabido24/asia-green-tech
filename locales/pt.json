@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "Asia Green Tech — Inovação sustentável",
+    "description": "A Asia Green Technology desenvolve soluções tecnológicas limpas e regenerativas na Ásia — unindo natureza, engenharia e sistemas inteligentes."
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "contact": "Contacto",
+    "language": "Idioma"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Escuro",
+    "toggle": "Tema"
+  },
+  "home": {
+    "brand": "Asia Green Tech",
+    "title": "Tecnologia limpa para um futuro regenerativo",
+    "subtitle": "Concebemos e entregamos inovação sustentável na Ásia — ligando natureza, engenharia e sistemas inteligentes.",
+    "cta_primary": "Explorar soluções",
+    "cta_secondary": "A nossa missão"
+  },
+  "footer": {
+    "tagline": "Asia Green Technology",
+    "rights": "© 2026 Asia Green Tech. Todos os direitos reservados."
+  }
+}

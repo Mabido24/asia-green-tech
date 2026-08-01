@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build / cache
+dist/
+.cache/
+.parcel-cache/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Cloudflare
+.wrangler/
+.dev.vars

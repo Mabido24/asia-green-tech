@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "Asia Green Tech — सतत नवाचार",
+    "description": "Asia Green Technology एशिया में स्वच्छ, पुनर्योजी तकनीकी समाधान डिज़ाइन करती है — प्रकृति, इंजीनियरिंग और बुद्धिमान प्रणालियों को जोड़ते हुए।"
+  },
+  "nav": {
+    "home": "होम",
+    "about": "हमारे बारे में",
+    "services": "सेवाएँ",
+    "contact": "संपर्क",
+    "language": "भाषा"
+  },
+  "theme": {
+    "light": "लाइट",
+    "dark": "डार्क",
+    "toggle": "थीम"
+  },
+  "home": {
+    "brand": "Asia Green Tech",
+    "title": "पुनर्योजी भविष्य के लिए स्वच्छ तकनीक",
+    "subtitle": "हम एशिया में सतत नवाचार डिज़ाइन और वितरित करते हैं — प्रकृति, इंजीनियरिंग और बुद्धिमान प्रणालियों को जोड़ते हुए।",
+    "cta_primary": "समाधान देखें",
+    "cta_secondary": "हमारा मिशन"
+  },
+  "footer": {
+    "tagline": "Asia Green Technology",
+    "rights": "© 2026 Asia Green Tech. सर्वाधिकार सुरक्षित।"
+  }
+}

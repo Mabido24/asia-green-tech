@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "Asia Green Tech — Sustainable Innovation",
+    "description": "Asia Green Technology designs clean, regenerative tech solutions across Asia — bridging nature, engineering, and intelligent systems."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "toggle": "Theme"
+  },
+  "home": {
+    "brand": "Asia Green Tech",
+    "title": "Clean technology for a regenerative future",
+    "subtitle": "We design and deliver sustainable innovation across Asia — bridging nature, engineering, and intelligent systems.",
+    "cta_primary": "Explore solutions",
+    "cta_secondary": "Our mission"
+  },
+  "footer": {
+    "tagline": "Asia Green Technology",
+    "rights": "© 2026 Asia Green Tech. All rights reserved."
+  }
+}
